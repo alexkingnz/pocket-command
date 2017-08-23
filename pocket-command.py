@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+# Send a URL to pocket (https://getpocket.com/) from the comand line
+# Copyright (C) 2017 Alex King
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
 import requests
 import http.server
 import json

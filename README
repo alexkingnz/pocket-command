@@ -1,0 +1,23 @@
+Pocket Command
+==============
+
+Copyright 2017 Alex King
+
+Pocket command is a simple program to send a url to Pocket.  Pocket
+(https://getpocket.com/) is a cloud service to queue up urls for later
+reading.  Pocket is include in firefox, and has reader clients for common
+portable devices.
+
+Pocket command was written for Linux, but it should be simple to port to
+other platforms.
+
+When first run, or if pocket credentials have expired, it will try to
+launch a firefox browser to allow you to log in to the pocket service.
+Once done, it should add the url and save your credentials to disk for next
+time.
+
+I wrote this so I can save urls from thunderbird.
+
+To install, just copy pocket.command.py to your path, (e.g. /usr/local/bin)
+and make it executable.
+
